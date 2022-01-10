@@ -107,11 +107,7 @@ Global Temporrary table:
 Global temporary tables are also stored in tempdb. Global temporary tables are temporary tables that are available to all sessions and all users. 
 They are dropped automatically when the last session using the temporary table has completed. They are specified with the prefix #, for example ##table_name.
 
-create table ##GlobalTemporaryTable  
-(  
-column_name varchar(20),  
-column_no int  
-)
+
 
 https://azure.microsoft.com/en-us/free/
 
