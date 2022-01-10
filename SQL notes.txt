@@ -100,7 +100,6 @@ Each temporary table is implicitly dropped by the system.
 Each temporary table is stored in the tempdb system database. The table variable doesn't.
 Drop Temporary Tables
  
-We can delete the temporary tables using the drop command as follows:
 
 Global Temporrary table:
 
