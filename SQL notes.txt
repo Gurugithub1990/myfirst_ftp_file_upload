@@ -1,0 +1,124 @@
+Table:
+Tables are database objects that contain all the data in a database. In tables, 
+data is logically organized in a row-and-column format similar to a spreadsheet. Each row represents a unique record, and each column represents a field in the record
+
+
+Schema:
+
+What is a schema in SQL Server. A schema is a collection of database objects including tables, views, triggers, stored procedures, indexes, etc. 
+A schema is associated with a username which is known as the schema owner,
+ who is the owner of the logically related database objects. A schema always belongs to one database.
+
+Temporarry table:
+
+
+
+
+
+
+create table Ftp_data
+(
+SSN int,
+Gender varchar (5),
+Birthdate date,
+first name varchar (20),
+maiden name varchar (20),
+last name varchar(20),
+address int varchar,
+city varchar (20),
+state varchar (10),
+zip int , 
+phone int,
+email,
+cc_type varchar, 
+CCN ,
+cc_cvc,
+cc_expiredate
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.ecdc.europa.eu/en/publications-data/data-daily-new-cases-covid-19-eueea-country
+From Phanindra to Everyone 02:33 PM
+0.0.0.0
+255.255.255.255
+guruservertest1
+guruservertest1
+GuruDb---------Server=tcp:guruservertest1.database.windows.net,1433;Initial Catalog=GuruDb;Persist Security Info=False;User ID=Guru;Password={your_password};MultipleActiveResultSets=False;
+Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Local temporary tables are the tables stored in tempdb. Local temporary tables are temporary tables that are available only to the session that created them. 
+These tables are automatically destroyed at the termination of the procedure or session. They are specified with the prefix #, 
+for example #table_name and these temp tables can be created with the same name in multiple windows.
+
+create table #table_name  
+(  
+column_name varchar(20),  
+column_no int  
+)
+
+A Temporary table differs in the following two ways from regular tables:
+Each temporary table is implicitly dropped by the system.
+Each temporary table is stored in the tempdb system database. The table variable doesn't.
+Drop Temporary Tables
+ 
+We can delete the temporary tables using the drop command as follows:
+
+Global Temporrary table:
+
+Global temporary tables are also stored in tempdb. Global temporary tables are temporary tables that are available to all sessions and all users. 
+They are dropped automatically when the last session using the temporary table has completed. They are specified with the prefix #, for example ##table_name.
+
+create table ##GlobalTemporaryTable  
+(  
+column_name varchar(20),  
+column_no int  
+)
+
+https://azure.microsoft.com/en-us/free/
+
+
+
+
+Stored procedur:
+
+ready to use
+
