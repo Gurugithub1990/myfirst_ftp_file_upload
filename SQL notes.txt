@@ -122,3 +122,5 @@ Stored procedur:
 
 ready to use
 
+myfirst_ftp_file_upload
+https://azure.microsoft.com/en-us/free/
