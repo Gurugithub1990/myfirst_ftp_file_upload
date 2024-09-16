@@ -1,0 +1,9 @@
+{
+	"name": "GuruDev",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bb1638e5-07c7-424f-9e80-d470475fb501",
+		"tenantId": "1023b1e8-769f-4784-8d13-4663e93a9610"
+	}
+}
